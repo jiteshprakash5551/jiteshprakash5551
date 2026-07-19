@@ -1,14 +1,14 @@
-<svg width="480" height="320" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most used languages">
+<svg width="100%" height="100%" viewBox="0 0 480 320" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most used languages">
 
 <defs>
   <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#0a0518"/><stop offset="100%" stop-color="#150826"/>
+    <stop offset="0%" stop-color="#0c0d0f"/><stop offset="100%" stop-color="#17191c"/>
   </linearGradient>
   <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#7dd3fc"/><stop offset="100%" stop-color="#ff4fd8"/>
+    <stop offset="0%" stop-color="#dee2e6"/><stop offset="100%" stop-color="#adb5bd"/>
   </linearGradient>
   <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#ff4fd8"/><stop offset="100%" stop-color="#a855f7"/>
+    <stop offset="0%" stop-color="#adb5bd"/><stop offset="100%" stop-color="#6c757d"/>
   </linearGradient>
   <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
     <feGaussianBlur stdDeviation="3" result="b"/>
@@ -16,87 +16,87 @@
   </filter>
 </defs>
 
-<rect x="0" y="0" width="480" height="320" rx="20" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.12)"/>
-<text x="24" y="38" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#f3e9ff">Most Used Languages</text>
-<rect x="24" y="56" width="432" height="18" rx="9" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+<rect x="0" y="0" width="480" height="320" rx="20" fill="url(#bgGrad)" stroke="rgba(222,226,230,0.14)"/>
+<text x="24" y="38" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#dee2e6">Most Used Languages</text>
+<rect x="24" y="56" width="432" height="18" rx="9" fill="rgba(222,226,230,0.045)" stroke="rgba(222,226,230,0.14)"/>
 <clipPath id="segClip0"><rect x="24" y="56" width="432" height="18" rx="9"/></clipPath>
-    <rect x="24.0" y="56" width="0" height="18" fill="#3776ab" clip-path="url(#segClip0)">
+    <rect x="24.0" y="56" width="0" height="18" fill="#eef0f2" clip-path="url(#segClip0)">
       <animate attributeName="width" values="0;138.2" begin="0.00s" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
     </rect>
 <clipPath id="segClip1"><rect x="24" y="56" width="432" height="18" rx="9"/></clipPath>
-    <rect x="162.2" y="56" width="0" height="18" fill="#f1e05a" clip-path="url(#segClip1)">
+    <rect x="162.2" y="56" width="0" height="18" fill="#dee2e6" clip-path="url(#segClip1)">
       <animate attributeName="width" values="0;95.0" begin="0.10s" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
     </rect>
 <clipPath id="segClip2"><rect x="24" y="56" width="432" height="18" rx="9"/></clipPath>
-    <rect x="257.3" y="56" width="0" height="18" fill="#3178c6" clip-path="url(#segClip2)">
+    <rect x="257.3" y="56" width="0" height="18" fill="#ced4da" clip-path="url(#segClip2)">
       <animate attributeName="width" values="0;69.1" begin="0.20s" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
     </rect>
 <clipPath id="segClip3"><rect x="24" y="56" width="432" height="18" rx="9"/></clipPath>
-    <rect x="326.4" y="56" width="0" height="18" fill="#e34c26" clip-path="url(#segClip3)">
+    <rect x="326.4" y="56" width="0" height="18" fill="#adb5bd" clip-path="url(#segClip3)">
       <animate attributeName="width" values="0;43.2" begin="0.30s" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
     </rect>
 <clipPath id="segClip4"><rect x="24" y="56" width="432" height="18" rx="9"/></clipPath>
-    <rect x="369.6" y="56" width="0" height="18" fill="#563d7c" clip-path="url(#segClip4)">
+    <rect x="369.6" y="56" width="0" height="18" fill="#8d959c" clip-path="url(#segClip4)">
       <animate attributeName="width" values="0;34.6" begin="0.40s" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
     </rect>
 <clipPath id="segClip5"><rect x="24" y="56" width="432" height="18" rx="9"/></clipPath>
-    <rect x="404.2" y="56" width="0" height="18" fill="#a8b9cc" clip-path="url(#segClip5)">
+    <rect x="404.2" y="56" width="0" height="18" fill="#6c757d" clip-path="url(#segClip5)">
       <animate attributeName="width" values="0;21.6" begin="0.50s" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
     </rect>
 <clipPath id="segClip6"><rect x="24" y="56" width="432" height="18" rx="9"/></clipPath>
-    <rect x="425.8" y="56" width="0" height="18" fill="#f34b7d" clip-path="url(#segClip6)">
+    <rect x="425.8" y="56" width="0" height="18" fill="#565e64" clip-path="url(#segClip6)">
       <animate attributeName="width" values="0;17.3" begin="0.60s" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
     </rect>
 <clipPath id="segClip7"><rect x="24" y="56" width="432" height="18" rx="9"/></clipPath>
-    <rect x="443.0" y="56" width="0" height="18" fill="#e38c00" clip-path="url(#segClip7)">
+    <rect x="443.0" y="56" width="0" height="18" fill="#495057" clip-path="url(#segClip7)">
       <animate attributeName="width" values="0;13.0" begin="0.70s" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
     </rect>
 <g transform="translate(24,100)" opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.00s" dur="0.5s" fill="freeze"/>
-  <circle cx="6" cy="-4" r="6" fill="#3776ab"/>
-  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#f3e9ff">Python</text>
-  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#7dd3fc">32%</text>
+  <circle cx="6" cy="-4" r="6" fill="#eef0f2"/>
+  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#dee2e6">Python</text>
+  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#dee2e6">32%</text>
 </g>
 <g transform="translate(240,100)" opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.15s" dur="0.5s" fill="freeze"/>
-  <circle cx="6" cy="-4" r="6" fill="#f1e05a"/>
-  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#f3e9ff">JavaScript</text>
-  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#7dd3fc">22%</text>
+  <circle cx="6" cy="-4" r="6" fill="#dee2e6"/>
+  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#dee2e6">JavaScript</text>
+  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#dee2e6">22%</text>
 </g>
 <g transform="translate(24,130)" opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.30s" dur="0.5s" fill="freeze"/>
-  <circle cx="6" cy="-4" r="6" fill="#3178c6"/>
-  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#f3e9ff">TypeScript</text>
-  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#7dd3fc">16%</text>
+  <circle cx="6" cy="-4" r="6" fill="#ced4da"/>
+  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#dee2e6">TypeScript</text>
+  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#dee2e6">16%</text>
 </g>
 <g transform="translate(240,130)" opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.45s" dur="0.5s" fill="freeze"/>
-  <circle cx="6" cy="-4" r="6" fill="#e34c26"/>
-  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#f3e9ff">HTML</text>
-  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#7dd3fc">10%</text>
+  <circle cx="6" cy="-4" r="6" fill="#adb5bd"/>
+  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#dee2e6">HTML</text>
+  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#dee2e6">10%</text>
 </g>
 <g transform="translate(24,160)" opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.60s" dur="0.5s" fill="freeze"/>
-  <circle cx="6" cy="-4" r="6" fill="#563d7c"/>
-  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#f3e9ff">CSS</text>
-  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#7dd3fc">8%</text>
+  <circle cx="6" cy="-4" r="6" fill="#8d959c"/>
+  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#dee2e6">CSS</text>
+  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#dee2e6">8%</text>
 </g>
 <g transform="translate(240,160)" opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.75s" dur="0.5s" fill="freeze"/>
-  <circle cx="6" cy="-4" r="6" fill="#a8b9cc"/>
-  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#f3e9ff">C</text>
-  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#7dd3fc">5%</text>
+  <circle cx="6" cy="-4" r="6" fill="#6c757d"/>
+  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#dee2e6">C</text>
+  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#dee2e6">5%</text>
 </g>
 <g transform="translate(24,190)" opacity="0">
   <animate attributeName="opacity" values="0;1" begin="0.90s" dur="0.5s" fill="freeze"/>
-  <circle cx="6" cy="-4" r="6" fill="#f34b7d"/>
-  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#f3e9ff">C++</text>
-  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#7dd3fc">4%</text>
+  <circle cx="6" cy="-4" r="6" fill="#565e64"/>
+  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#dee2e6">C++</text>
+  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#dee2e6">4%</text>
 </g>
 <g transform="translate(240,190)" opacity="0">
   <animate attributeName="opacity" values="0;1" begin="1.05s" dur="0.5s" fill="freeze"/>
-  <circle cx="6" cy="-4" r="6" fill="#e38c00"/>
-  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#f3e9ff">SQL</text>
-  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#7dd3fc">3%</text>
+  <circle cx="6" cy="-4" r="6" fill="#495057"/>
+  <text x="20" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#dee2e6">SQL</text>
+  <text x="200" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="12.5" font-weight="700" fill="#dee2e6">3%</text>
 </g>
 </svg>

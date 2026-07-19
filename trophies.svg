@@ -1,14 +1,14 @@
-<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Achievements">
+<svg width="100%" height="100%" viewBox="0 0 900 220" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Achievements">
 
 <defs>
   <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#0a0518"/><stop offset="100%" stop-color="#150826"/>
+    <stop offset="0%" stop-color="#0c0d0f"/><stop offset="100%" stop-color="#17191c"/>
   </linearGradient>
   <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#7dd3fc"/><stop offset="100%" stop-color="#ff4fd8"/>
+    <stop offset="0%" stop-color="#dee2e6"/><stop offset="100%" stop-color="#adb5bd"/>
   </linearGradient>
   <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#ff4fd8"/><stop offset="100%" stop-color="#a855f7"/>
+    <stop offset="0%" stop-color="#adb5bd"/><stop offset="100%" stop-color="#6c757d"/>
   </linearGradient>
   <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
     <feGaussianBlur stdDeviation="3" result="b"/>
@@ -16,20 +16,20 @@
   </filter>
 </defs>
 
-<rect x="0" y="0" width="900" height="220" rx="20" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.12)"/>
-<text x="24" y="34" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#f3e9ff">Achievements</text>
+<rect x="0" y="0" width="900" height="220" rx="20" fill="url(#bgGrad)" stroke="rgba(222,226,230,0.14)"/>
+<text x="24" y="34" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#dee2e6">Achievements</text>
 <g transform="translate(24,52)">
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" begin="0.00s" dur="0.5s" fill="freeze"/>
     <animateTransform attributeName="transform" type="scale" values="0.6;1.08;0.96;1" keyTimes="0;0.6;0.85;1" begin="0.00s" dur="0.6s" fill="freeze" additive="sum"/>
     <animateTransform attributeName="transform" type="translate" additive="sum"
       values="0,0;0,-6;0,0" dur="3s" begin="1.00s" repeatCount="indefinite"/>
-    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(255,255,255,0.04)" stroke="#ff4fd8" stroke-width="1.6" filter="url(#glow)">
+    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(222,226,230,0.045)" stroke="#dee2e6" stroke-width="1.6" filter="url(#glow)">
       <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="69" cy="46" r="30" fill="#ff4fd8" opacity="0.18"/>
+    <circle cx="69" cy="46" r="30" fill="#dee2e6" opacity="0.18"/>
     <text x="69" y="58" text-anchor="middle" font-size="34">🤖</text>
-    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#f3e9ff">
+    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#dee2e6">
       <tspan x="69" dy="0">AI</tspan>
       <tspan x="69" dy="16">Builder</tspan>
     </text>
@@ -47,12 +47,12 @@
     <animateTransform attributeName="transform" type="scale" values="0.6;1.08;0.96;1" keyTimes="0;0.6;0.85;1" begin="0.15s" dur="0.6s" fill="freeze" additive="sum"/>
     <animateTransform attributeName="transform" type="translate" additive="sum"
       values="0,0;0,-6;0,0" dur="4s" begin="1.15s" repeatCount="indefinite"/>
-    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(255,255,255,0.04)" stroke="#a855f7" stroke-width="1.6" filter="url(#glow)">
+    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(222,226,230,0.045)" stroke="#ced4da" stroke-width="1.6" filter="url(#glow)">
       <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="69" cy="46" r="30" fill="#a855f7" opacity="0.18"/>
+    <circle cx="69" cy="46" r="30" fill="#ced4da" opacity="0.18"/>
     <text x="69" y="58" text-anchor="middle" font-size="34">🌐</text>
-    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#f3e9ff">
+    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#dee2e6">
       <tspan x="69" dy="0">Open</tspan>
       <tspan x="69" dy="16">Source Contributor</tspan>
     </text>
@@ -70,12 +70,12 @@
     <animateTransform attributeName="transform" type="scale" values="0.6;1.08;0.96;1" keyTimes="0;0.6;0.85;1" begin="0.30s" dur="0.6s" fill="freeze" additive="sum"/>
     <animateTransform attributeName="transform" type="translate" additive="sum"
       values="0,0;0,-6;0,0" dur="3s" begin="1.30s" repeatCount="indefinite"/>
-    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(255,255,255,0.04)" stroke="#7dd3fc" stroke-width="1.6" filter="url(#glow)">
+    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(222,226,230,0.045)" stroke="#adb5bd" stroke-width="1.6" filter="url(#glow)">
       <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="69" cy="46" r="30" fill="#7dd3fc" opacity="0.18"/>
+    <circle cx="69" cy="46" r="30" fill="#adb5bd" opacity="0.18"/>
     <text x="69" y="58" text-anchor="middle" font-size="34">🧩</text>
-    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#f3e9ff">
+    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#dee2e6">
       <tspan x="69" dy="0">Problem</tspan>
       <tspan x="69" dy="16">Solver</tspan>
     </text>
@@ -93,12 +93,12 @@
     <animateTransform attributeName="transform" type="scale" values="0.6;1.08;0.96;1" keyTimes="0;0.6;0.85;1" begin="0.45s" dur="0.6s" fill="freeze" additive="sum"/>
     <animateTransform attributeName="transform" type="translate" additive="sum"
       values="0,0;0,-6;0,0" dur="4s" begin="1.45s" repeatCount="indefinite"/>
-    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(255,255,255,0.04)" stroke="#ffb84f" stroke-width="1.6" filter="url(#glow)">
+    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(222,226,230,0.045)" stroke="#9aa1a8" stroke-width="1.6" filter="url(#glow)">
       <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="69" cy="46" r="30" fill="#ffb84f" opacity="0.18"/>
+    <circle cx="69" cy="46" r="30" fill="#9aa1a8" opacity="0.18"/>
     <text x="69" y="58" text-anchor="middle" font-size="34">⚙</text>
-    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#f3e9ff">
+    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#dee2e6">
       <tspan x="69" dy="0">Robotics</tspan>
       <tspan x="69" dy="16">Enthusiast</tspan>
     </text>
@@ -116,12 +116,12 @@
     <animateTransform attributeName="transform" type="scale" values="0.6;1.08;0.96;1" keyTimes="0;0.6;0.85;1" begin="0.60s" dur="0.6s" fill="freeze" additive="sum"/>
     <animateTransform attributeName="transform" type="translate" additive="sum"
       values="0,0;0,-6;0,0" dur="3s" begin="1.60s" repeatCount="indefinite"/>
-    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(255,255,255,0.04)" stroke="#4fffb8" stroke-width="1.6" filter="url(#glow)">
+    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(222,226,230,0.045)" stroke="#6c757d" stroke-width="1.6" filter="url(#glow)">
       <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="69" cy="46" r="30" fill="#4fffb8" opacity="0.18"/>
+    <circle cx="69" cy="46" r="30" fill="#6c757d" opacity="0.18"/>
     <text x="69" y="58" text-anchor="middle" font-size="34">💻</text>
-    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#f3e9ff">
+    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#dee2e6">
       <tspan x="69" dy="0">Full</tspan>
       <tspan x="69" dy="16">Stack Developer</tspan>
     </text>
@@ -139,12 +139,12 @@
     <animateTransform attributeName="transform" type="scale" values="0.6;1.08;0.96;1" keyTimes="0;0.6;0.85;1" begin="0.75s" dur="0.6s" fill="freeze" additive="sum"/>
     <animateTransform attributeName="transform" type="translate" additive="sum"
       values="0,0;0,-6;0,0" dur="4s" begin="1.75s" repeatCount="indefinite"/>
-    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(255,255,255,0.04)" stroke="#ff6b6b" stroke-width="1.6" filter="url(#glow)">
+    <rect x="0" y="0" width="138" height="140" rx="16" fill="rgba(222,226,230,0.045)" stroke="#495057" stroke-width="1.6" filter="url(#glow)">
       <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="69" cy="46" r="30" fill="#ff6b6b" opacity="0.18"/>
+    <circle cx="69" cy="46" r="30" fill="#495057" opacity="0.18"/>
     <text x="69" y="58" text-anchor="middle" font-size="34">🔒</text>
-    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#f3e9ff">
+    <text x="69" y="100" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#dee2e6">
       <tspan x="69" dy="0">Cyber</tspan>
       <tspan x="69" dy="16">Explorer</tspan>
     </text>
