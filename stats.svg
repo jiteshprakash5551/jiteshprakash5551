@@ -1,0 +1,82 @@
+<svg width="480" height="300" viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats">
+
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0a0518"/><stop offset="100%" stop-color="#150826"/>
+  </linearGradient>
+  <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#7dd3fc"/><stop offset="100%" stop-color="#ff4fd8"/>
+  </linearGradient>
+  <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ff4fd8"/><stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect x="0" y="0" width="480" height="300" rx="20" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.12)"/>
+<text x="24" y="38" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#f3e9ff">GitHub Stats</text>
+
+<g transform="translate(395,90)">
+  <circle r="52" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="10"/>
+  <circle r="52" fill="none" stroke="url(#ringGrad)" stroke-width="10" stroke-linecap="round"
+    stroke-dasharray="326.7" stroke-dashoffset="326.7" transform="rotate(-90)" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="326.7;45.7" dur="1.8s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
+  </circle>
+  <text x="0" y="-2" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="22" font-weight="800" fill="#f3e9ff">A+</text>
+  <text x="0" y="16" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="9" fill="#b9a6d9">RANK</text>
+</g>
+
+<g transform="translate(0,70)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.00s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="-30,70;0,70" begin="0.00s" dur="0.5s" fill="freeze"/>
+  <text x="24" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#b9a6d9">Total Repositories</text>
+  <text x="274" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#ff4fd8">42</text>
+  <rect x="24" y="8" width="250" height="7" rx="3.5" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="24" y="8" width="0" height="7" rx="3.5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;150" begin="0.50s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
+  </rect>
+</g>
+<g transform="translate(0,108)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.15s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="-30,108;0,108" begin="0.15s" dur="0.5s" fill="freeze"/>
+  <text x="24" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#b9a6d9">Stars Earned</text>
+  <text x="274" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#ff4fd8">128</text>
+  <rect x="24" y="8" width="250" height="7" rx="3.5" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="24" y="8" width="0" height="7" rx="3.5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;250" begin="0.65s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
+  </rect>
+</g>
+<g transform="translate(0,146)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.30s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="-30,146;0,146" begin="0.30s" dur="0.5s" fill="freeze"/>
+  <text x="24" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#b9a6d9">Followers</text>
+  <text x="274" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#ff4fd8">96</text>
+  <rect x="24" y="8" width="250" height="7" rx="3.5" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="24" y="8" width="0" height="7" rx="3.5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;212" begin="0.80s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
+  </rect>
+</g>
+<g transform="translate(0,184)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.45s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="-30,184;0,184" begin="0.45s" dur="0.5s" fill="freeze"/>
+  <text x="24" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#b9a6d9">Following</text>
+  <text x="274" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#ff4fd8">54</text>
+  <rect x="24" y="8" width="250" height="7" rx="3.5" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="24" y="8" width="0" height="7" rx="3.5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;138" begin="0.95s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
+  </rect>
+</g>
+<g transform="translate(0,222)" opacity="0">
+  <animate attributeName="opacity" values="0;1" begin="0.60s" dur="0.5s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="-30,222;0,222" begin="0.60s" dur="0.5s" fill="freeze"/>
+  <text x="24" y="0" font-family="Segoe UI,sans-serif" font-size="13" fill="#b9a6d9">Projects</text>
+  <text x="274" y="0" text-anchor="end" font-family="Fira Code,monospace" font-size="13" font-weight="700" fill="#ff4fd8">6</text>
+  <rect x="24" y="8" width="250" height="7" rx="3.5" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="24" y="8" width="0" height="7" rx="3.5" fill="url(#barGrad)">
+    <animate attributeName="width" values="0;100" begin="1.10s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.3 1"/>
+  </rect>
+</g>
+</svg>
