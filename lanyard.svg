@@ -2,18 +2,18 @@
 
 <defs>
   <linearGradient id="strapGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#495057"/>
-    <stop offset="50%" stop-color="#6c757d"/>
-    <stop offset="100%" stop-color="#495057"/>
+    <stop offset="0%" stop-color="#134470"/>
+    <stop offset="50%" stop-color="#2c78ba"/>
+    <stop offset="100%" stop-color="#134470"/>
   </linearGradient>
   <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#f2f2f3"/>
-    <stop offset="45%" stop-color="#adb5bd"/>
+    <stop offset="0%" stop-color="#f4f6f7"/>
+    <stop offset="45%" stop-color="#b0b7ba"/>
     <stop offset="100%" stop-color="#495057"/>
   </linearGradient>
   <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#17191c"/>
-    <stop offset="100%" stop-color="#0a0b0c"/>
+    <stop offset="0%" stop-color="#0c2338"/>
+    <stop offset="100%" stop-color="#031a2d"/>
   </linearGradient>
   <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
@@ -21,8 +21,8 @@
     <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
   </linearGradient>
   <radialGradient id="ringGlow" cx="50%" cy="50%" r="50%">
-    <stop offset="70%" stop-color="#adb5bd" stop-opacity="0"/>
-    <stop offset="100%" stop-color="#adb5bd" stop-opacity="0.8"/>
+    <stop offset="70%" stop-color="#71a5de" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#71a5de" stop-opacity="0.85"/>
   </radialGradient>
   <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
     <feGaussianBlur stdDeviation="3" result="b"/>
@@ -55,18 +55,17 @@
   <rect x="-6" y="8" width="12" height="20" rx="5" fill="url(#metalGrad)"/>
 
 
-  <path d="M -14,26 C -30,120 30,220 -10,300 L 10,300 C 30,220 -30,120 14,26 Z" fill="url(#strapGrad)" stroke="#495057" stroke-width="1"/>
+  <path d="M -14,26 C -30,120 30,220 -10,300 L 10,300 C 30,220 -30,120 14,26 Z" fill="url(#strapGrad)" stroke="#134470" stroke-width="1"/>
 
-<text x="0" y="70" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10.5" font-weight="700"
-      fill="#ffffff" opacity="0.85" letter-spacing="1.5" transform="rotate(-4 0 70)">JITESH PRAKASH CHAUDHARY</text>
-<text x="0" y="125" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10.5" font-weight="700"
-      fill="#ffffff" opacity="0.85" letter-spacing="1.5" transform="rotate(4 0 125)">JITESH PRAKASH CHAUDHARY</text>
-<text x="0" y="180" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10.5" font-weight="700"
-      fill="#ffffff" opacity="0.85" letter-spacing="1.5" transform="rotate(-4 0 180)">JITESH PRAKASH CHAUDHARY</text>
-<text x="0" y="235" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10.5" font-weight="700"
-      fill="#ffffff" opacity="0.85" letter-spacing="1.5" transform="rotate(4 0 235)">JITESH PRAKASH CHAUDHARY</text>
+<clipPath id="strapClip"><path d="M -14,26 C -30,120 30,220 -10,300 L 10,300 C 30,220 -30,120 14,26 Z"/></clipPath>
 
-  <clipPath id="strapClip"><path d="M -14,26 C -30,120 30,220 -10,300 L 10,300 C 30,220 -30,120 14,26 Z"/></clipPath>
+  <g clip-path="url(#strapClip)">
+    <text font-family="'Trebuchet MS','Arial Narrow',sans-serif" font-size="10.5" font-weight="700" fill="#e1ecf7" opacity="0.92"
+      letter-spacing="1.2" textLength="320" lengthAdjust="spacingAndGlyphs"
+      transform="translate(3,30) rotate(90)">JITESH PRAKASH CHAUDHARY  •  JITESH PRAKASH CHAUDHARY  •  JITESH PRAKASH CHAUDHARY  •  </text>
+  </g>
+
+
   <g clip-path="url(#strapClip)">
     <rect x="-60" y="0" width="30" height="320" fill="url(#shineGrad)" transform="skewX(-20)">
       <animate attributeName="x" values="-80;120" dur="3.4s" repeatCount="indefinite"/>
@@ -82,8 +81,8 @@
   <rect x="-118" y="-8" width="236" height="10" fill="url(#metalGrad)"/>
   <circle cx="0" cy="-3" r="5" fill="#495057"/>
 
-  <rect x="-115" y="0" width="230" height="300" rx="20" fill="url(#cardGrad)" stroke="#adb5bd" stroke-opacity="0.4" stroke-width="1.4" filter="url(#softGlow)"/>
-  <rect x="-115" y="0" width="230" height="300" rx="20" fill="rgba(222,226,230,0.05)"/>
+  <rect x="-115" y="0" width="230" height="300" rx="20" fill="url(#cardGrad)" stroke="#71a5de" stroke-opacity="0.45" stroke-width="1.4" filter="url(#softGlow)"/>
+  <rect x="-115" y="0" width="230" height="300" rx="20" fill="#e1ecf7" opacity="0.04"/>
 
   <g clip-path="url(#cardClip)" transform="translate(0,0)">
     <rect x="-115" y="0" width="230" height="300" fill="none"/>
@@ -92,8 +91,8 @@
     </rect>
   </g>
 
-  <text x="0" y="26" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="10" font-weight="700" letter-spacing="3" fill="#dee2e6">ACCESS - ALL AREAS</text>
-  <line x1="-90" y1="36" x2="90" y2="36" stroke="#adb5bd" stroke-opacity="0.35"/>
+  <text x="0" y="26" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="3" fill="#b8d8be">ACCESS - ALL AREAS</text>
+  <line x1="-90" y1="36" x2="90" y2="36" stroke="#71a5de" stroke-opacity="0.35"/>
 
 
   <g transform="translate(0,92)">
@@ -107,78 +106,78 @@
   </g>
 
 
-  <text x="0" y="172" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="17" font-weight="800" fill="#dee2e6">Jitesh Prakash Chaudhary</text>
-  <text x="0" y="193" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="12.5" font-weight="600" fill="#adb5bd">AI Developer</text>
-  <text x="0" y="211" text-anchor="middle" font-family="'Fira Code',monospace" font-size="11.5" fill="#adb5bd">@jiteshprakash51</text>
+  <text x="0" y="172" text-anchor="middle" font-family="'Times New Roman',Times,Georgia,serif" font-size="18" font-weight="700" fill="#e6eaed">Jitesh Prakash Chaudhary</text>
+  <text x="0" y="193" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.5" fill="#b8d8be">AI Developer</text>
+  <text x="0" y="211" text-anchor="middle" font-family="'Fira Code','Cascadia Code',Consolas,monospace" font-size="11.5" fill="#aecbeb">@jiteshprakash51</text>
 
-  <line x1="-90" y1="222" x2="90" y2="222" stroke="#adb5bd" stroke-opacity="0.25"/>
+  <line x1="-90" y1="222" x2="90" y2="222" stroke="#71a5de" stroke-opacity="0.3"/>
 
 <g transform="translate(-90,232)">
-<rect x="0" y="0" width="2" height="26" fill="#dee2e6"/>
-<rect x="3" y="0" width="3" height="26" fill="#dee2e6"/>
-<rect x="7" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="9" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="11" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="15" y="0" width="3" height="26" fill="#dee2e6"/>
-<rect x="25" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="27" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="37" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="39" y="0" width="2" height="26" fill="#dee2e6"/>
-<rect x="44" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="46" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="48" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="50" y="0" width="3" height="26" fill="#dee2e6"/>
-<rect x="54" y="0" width="3" height="26" fill="#dee2e6"/>
-<rect x="58" y="0" width="3" height="26" fill="#dee2e6"/>
-<rect x="62" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="66" y="0" width="2" height="26" fill="#dee2e6"/>
-<rect x="69" y="0" width="2" height="26" fill="#dee2e6"/>
-<rect x="72" y="0" width="2" height="26" fill="#dee2e6"/>
-<rect x="84" y="0" width="3" height="26" fill="#dee2e6"/>
-<rect x="88" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="93" y="0" width="2" height="26" fill="#dee2e6"/>
-<rect x="100" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="102" y="0" width="3" height="26" fill="#dee2e6"/>
-<rect x="108" y="0" width="2" height="26" fill="#dee2e6"/>
-<rect x="115" y="0" width="3" height="26" fill="#dee2e6"/>
-<rect x="122" y="0" width="3" height="26" fill="#dee2e6"/>
-<rect x="126" y="0" width="1" height="26" fill="#dee2e6"/>
-<rect x="128" y="0" width="1" height="26" fill="#dee2e6"/>
+<rect x="0" y="0" width="2" height="26" fill="#e6eaed"/>
+<rect x="3" y="0" width="3" height="26" fill="#e6eaed"/>
+<rect x="7" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="9" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="11" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="15" y="0" width="3" height="26" fill="#e6eaed"/>
+<rect x="25" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="27" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="37" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="39" y="0" width="2" height="26" fill="#e6eaed"/>
+<rect x="44" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="46" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="48" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="50" y="0" width="3" height="26" fill="#e6eaed"/>
+<rect x="54" y="0" width="3" height="26" fill="#e6eaed"/>
+<rect x="58" y="0" width="3" height="26" fill="#e6eaed"/>
+<rect x="62" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="66" y="0" width="2" height="26" fill="#e6eaed"/>
+<rect x="69" y="0" width="2" height="26" fill="#e6eaed"/>
+<rect x="72" y="0" width="2" height="26" fill="#e6eaed"/>
+<rect x="84" y="0" width="3" height="26" fill="#e6eaed"/>
+<rect x="88" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="93" y="0" width="2" height="26" fill="#e6eaed"/>
+<rect x="100" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="102" y="0" width="3" height="26" fill="#e6eaed"/>
+<rect x="108" y="0" width="2" height="26" fill="#e6eaed"/>
+<rect x="115" y="0" width="3" height="26" fill="#e6eaed"/>
+<rect x="122" y="0" width="3" height="26" fill="#e6eaed"/>
+<rect x="126" y="0" width="1" height="26" fill="#e6eaed"/>
+<rect x="128" y="0" width="1" height="26" fill="#e6eaed"/>
 </g>
 <g transform="translate(66,232)">
-<rect x="3.4" y="0.0" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="10.2" y="0.0" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="13.6" y="0.0" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="0.0" y="3.4" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="10.2" y="3.4" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="17.0" y="3.4" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="0.0" y="6.8" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="6.8" y="6.8" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="10.2" y="6.8" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="13.6" y="6.8" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="17.0" y="6.8" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="20.4" y="6.8" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="3.4" y="10.2" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="6.8" y="10.2" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="17.0" y="10.2" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="0.0" y="13.6" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="3.4" y="13.6" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="6.8" y="13.6" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="10.2" y="13.6" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="17.0" y="13.6" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="0.0" y="17.0" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="3.4" y="17.0" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="17.0" y="17.0" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="0.0" y="20.4" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="6.8" y="20.4" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="17.0" y="20.4" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="20.4" y="20.4" width="3.4" height="3.4" fill="#dee2e6"/>
-<rect x="0.0" y="0.0" width="10.2" height="10.2" fill="none" stroke="#adb5bd" stroke-width="1"/>
-<rect x="13.6" y="0.0" width="10.2" height="10.2" fill="none" stroke="#adb5bd" stroke-width="1"/>
-<rect x="0.0" y="13.6" width="10.2" height="10.2" fill="none" stroke="#adb5bd" stroke-width="1"/>
+<rect x="3.4" y="0.0" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="10.2" y="0.0" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="13.6" y="0.0" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="0.0" y="3.4" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="10.2" y="3.4" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="17.0" y="3.4" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="0.0" y="6.8" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="6.8" y="6.8" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="10.2" y="6.8" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="13.6" y="6.8" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="17.0" y="6.8" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="20.4" y="6.8" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="3.4" y="10.2" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="6.8" y="10.2" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="17.0" y="10.2" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="0.0" y="13.6" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="3.4" y="13.6" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="6.8" y="13.6" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="10.2" y="13.6" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="17.0" y="13.6" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="0.0" y="17.0" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="3.4" y="17.0" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="17.0" y="17.0" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="0.0" y="20.4" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="6.8" y="20.4" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="17.0" y="20.4" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="20.4" y="20.4" width="3.4" height="3.4" fill="#e6eaed"/>
+<rect x="0.0" y="0.0" width="10.2" height="10.2" fill="none" stroke="#71a5de" stroke-width="1"/>
+<rect x="13.6" y="0.0" width="10.2" height="10.2" fill="none" stroke="#71a5de" stroke-width="1"/>
+<rect x="0.0" y="13.6" width="10.2" height="10.2" fill="none" stroke="#71a5de" stroke-width="1"/>
 </g>
 
-  <text x="0" y="284" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10" letter-spacing="2" fill="#adb5bd">ID# JPC-2026-0051</text>
+  <text x="0" y="284" text-anchor="middle" font-family="'Courier New',Courier,monospace" font-size="10" letter-spacing="2" fill="#aecbeb">ID# JPC-2026-0051</text>
 
 </g>
 </g>
